@@ -68,11 +68,29 @@
           <div class="menu__items">
             <li><a href="#about">О нас</a></li>
             <li><a href="#services">Услуги</a></li>
-            <li><a href="#advantages">Преимущества</a></li>
             <li><a href="#portfoly">Портфолио</a></li>
             <li><a href="#catalog">Каталог</a></li>
             <li><a href="#reviews">Отзывы</a></li>
             <li><a href="#faq">FAQ</a></li>
+          </div>
+          <div class="header-lang">
+            <div class="header-lang__current" type="button">
+              <span>RU</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                aria-hidden="true"
+              >
+                <path d="M1.41.59 6 5.17 10.59.59 12 2l-6 6-6-6z"></path>
+              </svg>
+            </div>
+
+            <div class="header-lang__dropdown">
+              <a href="#" class="header-lang__item is-active">RU</a>
+              <a href="#" class="header-lang__item">EN</a>
+            </div>
           </div>
           <div class="social__icons">
             <a href="" target="_blank">
@@ -151,6 +169,7 @@
               </svg>
             </a>
           </div>
+
           <a href="" class="main__button" data-open-modal="contact-modal"
             >Оставить заявку</a
           >
@@ -301,7 +320,9 @@
             </svg>
           </a>
         </div>
-        <a href="" class="main__button" data-open-modal="contact-modal">Оставить заявку</a>
+        <a href="" class="main__button" data-open-modal="contact-modal"
+          >Оставить заявку</a
+        >
       </div>
     </header>
     <main>
@@ -309,14 +330,225 @@
         <div class="swiper hero-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide hero-slide" id="hero-slide1">
-              <div class="hero-content">
-                <h1>Модульный дом вашей мечты!</h1>
-                <p>
-                  Эксклюзивный модульный дом с террасой – комфорт и стиль в
-                  одном!
-                </p>
-                <a href="#" class="hero-link"
-                  >Подробнее
+              <div class="container">
+                <div class="hero-content">
+                  <h1>
+                    Современные модульные дома для комфортной жизни вашей семьи
+                  </h1>
+                  <p>
+                    Мы проектируем и строим современные модульные каркасные дома
+                    для комфортной жизни круглый год - надежные, теплые и
+                    продуманные до каждой детали.
+                  </p>
+                  <a href="#" class="hero-link"
+                    >Узнать больше
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      version="1.1"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="18"
+                      height="18"
+                      x="0"
+                      y="0"
+                      viewBox="0 0 512 512"
+                      style="enable-background: new 0 0 512 512"
+                      xml:space="preserve"
+                      class=""
+                    >
+                      <g>
+                        <path
+                          d="m506.134 241.843-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"
+                          fill="#ffffff"
+                          opacity="1"
+                          data-original="#000000"
+                          class=""
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <div class="container">
+            <div class="hero-actions-grid">
+              <a class="hero-action-card" data-open-modal="contact-modal">
+                <span class="hero-action-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="32"
+                    height="32"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 682.667 682.667"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <defs>
+                        <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                          <path
+                            d="M0 512h512V0H0Z"
+                            fill="#ffffff"
+                            opacity="1"
+                            data-original="#000000"
+                            class=""
+                          ></path>
+                        </clipPath>
+                      </defs>
+                      <g
+                        clip-path="url(#a)"
+                        transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
+                      >
+                        <path
+                          d="m0 0 2.653 20.543C4.408 33.159.347 48.488-9.248 60.679l-54.154 67.406a48.121 48.121 0 0 0-14.946 34.853v80.626h10.216c8.814 0 17.094-2.269 24.284-6.252 15.45-8.552 25.917-25.03 25.917-43.949v-16.599l23.306-22.499c10.095-9.752 23.366-13.463 37.394-13.463 29.84 1.271 50.716 23.507 52.209 53.862 0 31.454-25.142 53.933-54.579 53.933-18.475 1.22-37.374-1.624-53.439-11.094-10.275-5.838-21.762-5.193-30.808-.191-9.469 5.234-16.277 15.238-16.277 27.582.384 11.98 5.688 21.106 15.894 27.39 25.645 13.301 52.682 23.315 81.958 22.438 12.232 0 22.287-.928 36.657-4.75L25.232 447.244c-6.595 17.638 2.813 37.222 20.704 43.092A32.997 32.997 0 0 0 56.283 492c13.452 0 26.048-8.259 31.02-21.521l32.836-87.565 36.456-97.246c9.411-23.706 20.522-55.38 20.522-82.281v-2.632a174.77 174.77 0 0 0-2.844-31.403c-25-16.509-41.499-44.857-41.499-77.067 0-5.295.444-10.489 1.311-15.541l-.009-.01V0"
+                          style="
+                            stroke-width: 20;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(136.503 10)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="20"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          class=""
+                          opacity="1"
+                        ></path>
+                        <path
+                          d="M0 0v-50.962l36.458-97.249s20.519-48.067 20.519-82.265V0c0 15.733-12.755 28.488-28.489 28.488C12.755 28.488 0 15.733 0 0Z"
+                          style="
+                            stroke-width: 20;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(256.638 443.878)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="20"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          class=""
+                          opacity="1"
+                        ></path>
+                        <path
+                          d="M0 0s15.78-4.155 26.949-11.416"
+                          style="
+                            stroke-width: 20;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(210.887 319.966)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="20"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          class=""
+                          opacity="1"
+                        ></path>
+                        <path
+                          d="M0 0c-15.501 29.181-46.2 49.056-81.546 49.056-50.967 0-92.284-41.317-92.284-92.284 0-50.966 41.317-92.283 92.284-92.283 35.291 0 65.951 19.813 81.475 48.92"
+                          style="
+                            stroke-width: 20;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(443.107 145.511)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="20"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          class=""
+                          opacity="1"
+                        ></path>
+                        <path
+                          d="m0 0 24.134-24.134L81.38 33.112"
+                          style="
+                            stroke-width: 20;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(320.844 96.552)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="20"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          class=""
+                          opacity="1"
+                        ></path>
+                        <path
+                          d="M0 0v0"
+                          style="
+                            stroke-width: 20;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(453.844 102.284)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="20"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          class=""
+                          opacity="1"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+                <span class="hero-action-text"
+                  >Подобрать проект под ваш участок
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
@@ -340,580 +572,431 @@
                       ></path>
                     </g>
                   </svg>
-                </a>
-              </div>
+                </span>
+              </a>
+
+              <a class="hero-action-card" data-open-modal="contact-modal">
+                <span class="hero-action-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="32"
+                    height="32"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 682.667 682.667"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <defs>
+                        <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                          <path
+                            d="M0 512h512V0H0Z"
+                            fill="#ffffff"
+                            opacity="1"
+                            data-original="#000000"
+                          ></path>
+                        </clipPath>
+                      </defs>
+                      <g
+                        clip-path="url(#a)"
+                        transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
+                      >
+                        <path
+                          d="M0 0h-258.446c-8.283 0-14.997 6.714-14.997 14.997v388.634c0 8.282 6.714 14.996 14.997 14.996H0c8.283 0 14.997-6.714 14.997-14.996V14.997C14.997 6.714 8.283 0 0 0Z"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: 434, 35, 400, 0;
+                            stroke-dashoffset: 0;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(407.118 7.5)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="434, 35, 400, 0"
+                          stroke-dashoffset="0"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0c1.066.24 2.17.378 3.309.378h229.653v63.375c0 3.677-1.328 7.04-3.524 9.649z"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(145.363 425.75)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0v72.461a7 7 0 0 0 7 7h78.169a7 7 0 0 0 7-7V0a7 7 0 0 0-7-7H7a7 7 0 0 0-7 7Z"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(169.675 310.666)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0v72.461a7 7 0 0 0 7 7h78.169a7 7 0 0 0 7-7V0a7 7 0 0 0-7-7H7a7 7 0 0 0-7 7Z"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(169.675 50.5)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0v72.461a7 7 0 0 0 7 7h78.169a7 7 0 0 0 7-7V0a7 7 0 0 0-7-7H7a7 7 0 0 0-7 7Z"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(169.675 176.54)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0h92.681"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(293.434 361.07)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0h34.667"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(293.434 332.724)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0h92.681"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(293.434 226.943)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0h34.667"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(293.434 198.596)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0h92.681"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(293.434 100.904)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0h34.667"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: none;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(293.434 72.557)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="none"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="M0 0c-.022-.002-.044-.007-.067-.01.023.002.045.008.067.01Z"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: 434, 35, 600, 0;
+                            stroke-dashoffset: 0;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(147.001 426.03)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="434, 35, 600, 0"
+                          stroke-dashoffset="0"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                        <path
+                          d="m0 0 229.438 73.402c-2.751 3.268-6.867 5.348-11.473 5.348H-40.481c-8.283 0-14.997-6.714-14.997-14.997V-324.88c0-8.283 6.714-14.997 14.997-14.997h28.793v325.258C-11.688-7.475-6.688-1.508 0 0z"
+                          style="
+                            stroke-width: 15;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                            stroke-dasharray: 434, 35, 600, 0;
+                            stroke-dashoffset: 0;
+                            stroke-opacity: 1;
+                          "
+                          transform="translate(145.363 425.75)"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-dasharray="434, 35, 600, 0"
+                          stroke-dashoffset="0"
+                          stroke-opacity=""
+                          data-original="#000000"
+                          opacity="1"
+                          class=""
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+                <span class="hero-action-text"
+                  >Перейти в каталог готовых домов
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="18"
+                    height="18"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 512 512"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <path
+                        d="m506.134 241.843-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"
+                        fill="#ffffff"
+                        opacity="1"
+                        data-original="#000000"
+                        class=""
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </a>
             </div>
           </div>
         </div>
-        <div class="hero-actions">
-          <div class="hero-actions-grid">
-            <a class="hero-action-card" data-open-modal="contact-modal">
-              <span class="hero-action-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  version="1.1"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="32"
-                  height="32"
-                  x="0"
-                  y="0"
-                  viewBox="0 0 682.667 682.667"
-                  style="enable-background: new 0 0 512 512"
-                  xml:space="preserve"
-                  class=""
-                >
-                  <g>
-                    <defs>
-                      <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                        <path
-                          d="M0 512h512V0H0Z"
-                          fill="#ffffff"
-                          opacity="1"
-                          data-original="#000000"
-                          class=""
-                        ></path>
-                      </clipPath>
-                    </defs>
-                    <g
-                      clip-path="url(#a)"
-                      transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
-                    >
-                      <path
-                        d="m0 0 2.653 20.543C4.408 33.159.347 48.488-9.248 60.679l-54.154 67.406a48.121 48.121 0 0 0-14.946 34.853v80.626h10.216c8.814 0 17.094-2.269 24.284-6.252 15.45-8.552 25.917-25.03 25.917-43.949v-16.599l23.306-22.499c10.095-9.752 23.366-13.463 37.394-13.463 29.84 1.271 50.716 23.507 52.209 53.862 0 31.454-25.142 53.933-54.579 53.933-18.475 1.22-37.374-1.624-53.439-11.094-10.275-5.838-21.762-5.193-30.808-.191-9.469 5.234-16.277 15.238-16.277 27.582.384 11.98 5.688 21.106 15.894 27.39 25.645 13.301 52.682 23.315 81.958 22.438 12.232 0 22.287-.928 36.657-4.75L25.232 447.244c-6.595 17.638 2.813 37.222 20.704 43.092A32.997 32.997 0 0 0 56.283 492c13.452 0 26.048-8.259 31.02-21.521l32.836-87.565 36.456-97.246c9.411-23.706 20.522-55.38 20.522-82.281v-2.632a174.77 174.77 0 0 0-2.844-31.403c-25-16.509-41.499-44.857-41.499-77.067 0-5.295.444-10.489 1.311-15.541l-.009-.01V0"
-                        style="
-                          stroke-width: 20;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(136.503 10)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="20"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        class=""
-                        opacity="1"
-                      ></path>
-                      <path
-                        d="M0 0v-50.962l36.458-97.249s20.519-48.067 20.519-82.265V0c0 15.733-12.755 28.488-28.489 28.488C12.755 28.488 0 15.733 0 0Z"
-                        style="
-                          stroke-width: 20;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(256.638 443.878)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="20"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        class=""
-                        opacity="1"
-                      ></path>
-                      <path
-                        d="M0 0s15.78-4.155 26.949-11.416"
-                        style="
-                          stroke-width: 20;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(210.887 319.966)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="20"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        class=""
-                        opacity="1"
-                      ></path>
-                      <path
-                        d="M0 0c-15.501 29.181-46.2 49.056-81.546 49.056-50.967 0-92.284-41.317-92.284-92.284 0-50.966 41.317-92.283 92.284-92.283 35.291 0 65.951 19.813 81.475 48.92"
-                        style="
-                          stroke-width: 20;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(443.107 145.511)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="20"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        class=""
-                        opacity="1"
-                      ></path>
-                      <path
-                        d="m0 0 24.134-24.134L81.38 33.112"
-                        style="
-                          stroke-width: 20;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(320.844 96.552)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="20"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        class=""
-                        opacity="1"
-                      ></path>
-                      <path
-                        d="M0 0v0"
-                        style="
-                          stroke-width: 20;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(453.844 102.284)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="20"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        class=""
-                        opacity="1"
-                      ></path>
-                    </g>
-                  </g>
-                </svg>
-              </span>
-              <span class="hero-action-text"
-                >Подобрать идеальный вариант
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  version="1.1"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="18"
-                  height="18"
-                  x="0"
-                  y="0"
-                  viewBox="0 0 512 512"
-                  style="enable-background: new 0 0 512 512"
-                  xml:space="preserve"
-                  class=""
-                >
-                  <g>
+        <div class="slider-buttons">
+          <div class="slider-buttons__item">
+            <button
+              class="slider-buttons__button"
+              data-slider-button="1"
+              aria-label="Слайд 1"
+            >
+              <span class="slider-buttons__span">
+                <span class="slider-buttons__hover">
+                  <svg
+                    class="slider-buttons__svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
-                      d="m506.134 241.843-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"
-                      fill="#ffffff"
-                      opacity="1"
-                      data-original="#000000"
-                      class=""
+                      d="M1.5 3.75L6 8.25L10.5 3.75"
+                      stroke="white"
+                      stroke-width="1.5"
                     ></path>
-                  </g>
-                </svg>
+                  </svg>
+                </span>
               </span>
-            </a>
+            </button>
+          </div>
 
-            <a class="hero-action-card" data-open-modal="contact-modal">
-              <span class="hero-action-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  version="1.1"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="32"
-                  height="32"
-                  x="0"
-                  y="0"
-                  viewBox="0 0 682.667 682.667"
-                  style="enable-background: new 0 0 512 512"
-                  xml:space="preserve"
-                  class=""
-                >
-                  <g>
-                    <defs>
-                      <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                        <path
-                          d="M0 512h512V0H0Z"
-                          fill="#ffffff"
-                          opacity="1"
-                          data-original="#000000"
-                        ></path>
-                      </clipPath>
-                    </defs>
-                    <g
-                      clip-path="url(#a)"
-                      transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
-                    >
-                      <path
-                        d="M0 0h-258.446c-8.283 0-14.997 6.714-14.997 14.997v388.634c0 8.282 6.714 14.996 14.997 14.996H0c8.283 0 14.997-6.714 14.997-14.996V14.997C14.997 6.714 8.283 0 0 0Z"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: 434, 35, 400, 0;
-                          stroke-dashoffset: 0;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(407.118 7.5)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="434, 35, 400, 0"
-                        stroke-dashoffset="0"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0c1.066.24 2.17.378 3.309.378h229.653v63.375c0 3.677-1.328 7.04-3.524 9.649z"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(145.363 425.75)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0v72.461a7 7 0 0 0 7 7h78.169a7 7 0 0 0 7-7V0a7 7 0 0 0-7-7H7a7 7 0 0 0-7 7Z"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(169.675 310.666)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0v72.461a7 7 0 0 0 7 7h78.169a7 7 0 0 0 7-7V0a7 7 0 0 0-7-7H7a7 7 0 0 0-7 7Z"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(169.675 50.5)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0v72.461a7 7 0 0 0 7 7h78.169a7 7 0 0 0 7-7V0a7 7 0 0 0-7-7H7a7 7 0 0 0-7 7Z"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(169.675 176.54)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0h92.681"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(293.434 361.07)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0h34.667"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(293.434 332.724)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0h92.681"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(293.434 226.943)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0h34.667"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(293.434 198.596)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0h92.681"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(293.434 100.904)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0h34.667"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: none;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(293.434 72.557)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="none"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="M0 0c-.022-.002-.044-.007-.067-.01.023.002.045.008.067.01Z"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: 434, 35, 600, 0;
-                          stroke-dashoffset: 0;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(147.001 426.03)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="434, 35, 600, 0"
-                        stroke-dashoffset="0"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                      <path
-                        d="m0 0 229.438 73.402c-2.751 3.268-6.867 5.348-11.473 5.348H-40.481c-8.283 0-14.997-6.714-14.997-14.997V-324.88c0-8.283 6.714-14.997 14.997-14.997h28.793v325.258C-11.688-7.475-6.688-1.508 0 0z"
-                        style="
-                          stroke-width: 15;
-                          stroke-linecap: round;
-                          stroke-linejoin: round;
-                          stroke-miterlimit: 10;
-                          stroke-dasharray: 434, 35, 600, 0;
-                          stroke-dashoffset: 0;
-                          stroke-opacity: 1;
-                        "
-                        transform="translate(145.363 425.75)"
-                        fill="none"
-                        stroke="#ffffff"
-                        stroke-width="15"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
-                        stroke-dasharray="434, 35, 600, 0"
-                        stroke-dashoffset="0"
-                        stroke-opacity=""
-                        data-original="#000000"
-                        opacity="1"
-                        class=""
-                      ></path>
-                    </g>
-                  </g>
-                </svg>
-              </span>
-              <span class="hero-action-text"
-                >Смотреть каталог готовых проектов
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  version="1.1"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="18"
-                  height="18"
-                  x="0"
-                  y="0"
-                  viewBox="0 0 512 512"
-                  style="enable-background: new 0 0 512 512"
-                  xml:space="preserve"
-                  class=""
-                >
-                  <g>
+          <div class="slider-buttons__item">
+            <button
+              class="slider-buttons__button"
+              data-slider-button="2"
+              aria-label="Слайд 2"
+            >
+              <span class="slider-buttons__span">
+                <span class="slider-buttons__hover">
+                  <svg
+                    class="slider-buttons__svg right"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
-                      d="m506.134 241.843-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"
-                      fill="#ffffff"
-                      opacity="1"
-                      data-original="#000000"
-                      class=""
+                      d="M1.5 3.75L6 8.25L10.5 3.75"
+                      stroke="white"
+                      stroke-width="1.5"
                     ></path>
-                  </g>
-                </svg>
+                  </svg>
+                </span>
               </span>
-            </a>
+            </button>
           </div>
         </div>
       </section>
@@ -947,6 +1030,270 @@
 
             <div class="image-box">
               <img src="/assests/img/DSC00251-Edit-2.jpeg" alt="landscape" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="saunas-section" id="catalog">
+        <div class="container">
+          <div class="section-title">
+            <h2 class="title">Бани</h2>
+          </div>
+          <div class="swiper saunas-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="sauna-card-new">
+                  <div class="sauna-image-wrap">
+                    <img
+                      src="/assests/img/ChatGPT Image 26 Mar 2026 22_35_22 (1).png"
+                      alt="Комфорт 4"
+                    />
+
+                    <!-- Floating spec badges -->
+                    <div class="sauna-badges">
+                      <span>Материал: сталь AISI 430</span>
+                      <span>Тип печи: с водяной рубашкой</span>
+                      <span>Комфортно до 4 человек</span>
+                    </div>
+
+                    <!-- Overlay gradient -->
+                    <div class="sauna-overlay"></div>
+
+                    <!-- Text -->
+                    <div class="sauna-text">
+                      <!-- <span class="sauna-category">Для небольшой семьи</span> -->
+                      <h3 class="sauna-title">Модульные дома</h3>
+
+                      <!-- Hidden on default -->
+                      <div class="sauna-hidden-info">
+                        <p>
+                          Готова к отдыху через день после доставки. Не требует
+                          сложного фундамента.
+                        </p>
+                        <p class="sauna-specs">
+                          | До 4 человек | Материал: ель камерной сушки |
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sauna-card-footer">
+                    <a href="#" class="main__button">
+                      Узнать стоимость «Комфорт 4»
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sauna-card-new">
+                  <div class="sauna-image-wrap">
+                    <img
+                      src="/assests/img/ChatGPT Image 26 Mar 2026 22_36_35.png"
+                      alt="Комфорт 4"
+                    />
+
+                    <!-- Floating spec badges -->
+                    <div class="sauna-badges">
+                      <span>Материал: сталь AISI 430</span>
+                      <span>Тип печи: с водяной рубашкой</span>
+                      <span>Комфортно до 4 человек</span>
+                    </div>
+
+                    <!-- Overlay gradient -->
+                    <div class="sauna-overlay"></div>
+
+                    <!-- Text -->
+                    <div class="sauna-text">
+                      <!-- <span class="sauna-category">Для небольшой семьи</span> -->
+                      <h3 class="sauna-title">Бани</h3>
+
+                      <!-- Hidden on default -->
+                      <div class="sauna-hidden-info">
+                        <p>
+                          Готова к отдыху через день после доставки. Не требует
+                          сложного фундамента.
+                        </p>
+                        <p class="sauna-specs">
+                          | До 4 человек | Материал: ель камерной сушки |
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sauna-card-footer">
+                    <a href="#" class="main__button">
+                      Узнать стоимость «Комфорт 4»
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sauna-card-new">
+                  <div class="sauna-image-wrap">
+                    <img
+                      src="/assests/img/ChatGPT Image 26 Mar 2026 22_38_14.png"
+                      alt="Комфорт 4"
+                    />
+
+                    <!-- Floating spec badges -->
+                    <div class="sauna-badges">
+                      <span>Материал: сталь AISI 430</span>
+                      <span>Тип печи: с водяной рубашкой</span>
+                      <span>Комфортно до 4 человек</span>
+                    </div>
+
+                    <!-- Overlay gradient -->
+                    <div class="sauna-overlay"></div>
+
+                    <!-- Text -->
+                    <div class="sauna-text">
+                      <!-- <span class="sauna-category">Для небольшой семьи</span> -->
+                      <h3 class="sauna-title">Террасы</h3>
+
+                      <!-- Hidden on default -->
+                      <div class="sauna-hidden-info">
+                        <p>
+                          Готова к отдыху через день после доставки. Не требует
+                          сложного фундамента.
+                        </p>
+                        <p class="sauna-specs">
+                          | До 4 человек | Материал: ель камерной сушки |
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sauna-card-footer">
+                    <a href="#" class="main__button">
+                      Узнать стоимость «Комфорт 4»
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sauna-card-new">
+                  <div class="sauna-image-wrap">
+                    <img
+                      src="/assests/img/ChatGPT Image 26 Mar 2026 22_35_22 (1).png"
+                      alt="Комфорт 4"
+                    />
+
+                    <!-- Floating spec badges -->
+                    <div class="sauna-badges">
+                      <span>Материал: сталь AISI 430</span>
+                      <span>Тип печи: с водяной рубашкой</span>
+                      <span>Комфортно до 4 человек</span>
+                    </div>
+
+                    <!-- Overlay gradient -->
+                    <div class="sauna-overlay"></div>
+
+                    <!-- Text -->
+                    <div class="sauna-text">
+                      <!-- <span class="sauna-category">Для небольшой семьи</span> -->
+                      <h3 class="sauna-title">Модульные дома</h3>
+
+                      <!-- Hidden on default -->
+                      <div class="sauna-hidden-info">
+                        <p>
+                          Готова к отдыху через день после доставки. Не требует
+                          сложного фундамента.
+                        </p>
+                        <p class="sauna-specs">
+                          | До 4 человек | Материал: ель камерной сушки |
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sauna-card-footer">
+                    <a href="#" class="main__button">
+                      Узнать стоимость «Комфорт 4»
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sauna-card-new">
+                  <div class="sauna-image-wrap">
+                    <img
+                      src="/assests/img/ChatGPT Image 26 Mar 2026 22_36_35.png"
+                      alt="Комфорт 4"
+                    />
+
+                    <!-- Floating spec badges -->
+                    <div class="sauna-badges">
+                      <span>Материал: сталь AISI 430</span>
+                      <span>Тип печи: с водяной рубашкой</span>
+                      <span>Комфортно до 4 человек</span>
+                    </div>
+
+                    <!-- Overlay gradient -->
+                    <div class="sauna-overlay"></div>
+
+                    <!-- Text -->
+                    <div class="sauna-text">
+                      <!-- <span class="sauna-category">Для небольшой семьи</span> -->
+                      <h3 class="sauna-title">Бани</h3>
+
+                      <!-- Hidden on default -->
+                      <div class="sauna-hidden-info">
+                        <p>
+                          Готова к отдыху через день после доставки. Не требует
+                          сложного фундамента.
+                        </p>
+                        <p class="sauna-specs">
+                          | До 4 человек | Материал: ель камерной сушки |
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sauna-card-footer">
+                    <a href="#" class="main__button">
+                      Узнать стоимость «Комфорт 4»
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sauna-card-new">
+                  <div class="sauna-image-wrap">
+                    <img
+                      src="/assests/img/ChatGPT Image 26 Mar 2026 22_38_14.png"
+                      alt="Комфорт 4"
+                    />
+
+                    <!-- Floating spec badges -->
+                    <div class="sauna-badges">
+                      <span>Материал: сталь AISI 430</span>
+                      <span>Тип печи: с водяной рубашкой</span>
+                      <span>Комфортно до 4 человек</span>
+                    </div>
+
+                    <!-- Overlay gradient -->
+                    <div class="sauna-overlay"></div>
+
+                    <!-- Text -->
+                    <div class="sauna-text">
+                      <!-- <span class="sauna-category">Для небольшой семьи</span> -->
+                      <h3 class="sauna-title">Террасы</h3>
+
+                      <!-- Hidden on default -->
+                      <div class="sauna-hidden-info">
+                        <p>
+                          Готова к отдыху через день после доставки. Не требует
+                          сложного фундамента.
+                        </p>
+                        <p class="sauna-specs">
+                          | До 4 человек | Материал: ель камерной сушки |
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sauna-card-footer">
+                    <a href="#" class="main__button">
+                      Узнать стоимость «Комфорт 4»
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1186,65 +1533,253 @@
           </div>
         </div>
       </section>
-      <section class="projects gallery" id="portfoly">
+      <section class="projects gallery" id="gallery">
         <div class="container">
-          <div class="section-title">
-            <h2 class="title">Портфолио</h2>
-          </div>
-
           <div class="owl-carousel gallery-carousel">
             <div class="item">
-              <a
-                href="/assests/img/DSC00240-Edit-2.jpeg"
-                data-fancybox="gallery"
-                data-caption="СМПАР"
-              >
-                <img src="/assests/img/DSC00240-Edit-2.jpeg" alt="Image 8" />
+              <a href="/">
+                <img
+                  src="/assests/img/ChatGPT Image 26 Mar 2026 22_35_22 (1).png"
+                  alt="Image 1"
+                />
+                <div class="service-card__overlay"></div>
+                <div class="service-card__content">
+                  <h3 class="service-card__title">Lorem Ipsum</h3>
+                  <p class="service-card__desc">
+                    Профессиональный демонтаж конструкций любой сложности с
+                    соблюдением норм безопасности.
+                  </p>
+                </div>
+                <button class="service-card__btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="512"
+                    height="512"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 329.269 329"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <path
+                        d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                        fill="#000000"
+                        opacity="1"
+                        data-original="#000000"
+                        class=""
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
               </a>
             </div>
             <div class="item">
-              <a
-                href="/assests/img/DSC00251-Edit-2.jpeg"
-                data-fancybox="gallery"
-                data-caption="СМПАР"
-              >
-                <img src="/assests/img/DSC00251-Edit-2.jpeg" alt="Image 9" />
+              <a href="/">
+                <img
+                  src="/assests/img/ChatGPT Image 26 Mar 2026 22_36_35.png"
+                  alt="Image 2"
+                />
+                <div class="service-card__overlay"></div>
+                <div class="service-card__content">
+                  <h3 class="service-card__title">Lorem Ipsum</h3>
+                  <p class="service-card__desc">
+                    Профессиональный демонтаж конструкций любой сложности с
+                    соблюдением норм безопасности.
+                  </p>
+                </div>
+                <button class="service-card__btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="512"
+                    height="512"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 329.269 329"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <path
+                        d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                        fill="#000000"
+                        opacity="1"
+                        data-original="#000000"
+                        class=""
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
               </a>
             </div>
             <div class="item">
-              <a
-                href="/assests/img/DSC00253-3.jpeg"
-                data-fancybox="gallery"
-                data-caption="СМПАР"
-              >
-                <img src="/assests/img/DSC00253-3.jpeg" alt="Image 10" />
+              <a href="/">
+                <img
+                  src="/assests/img/ChatGPT Image 26 Mar 2026 22_38_14.png"
+                  alt="Image 3"
+                />
+                <div class="service-card__overlay"></div>
+                <div class="service-card__content">
+                  <h3 class="service-card__title">Lorem, ipsum.</h3>
+                  <p class="service-card__desc">
+                    Профессиональный демонтаж конструкций любой сложности с
+                    соблюдением норм безопасности.
+                  </p>
+                </div>
+                <button class="service-card__btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="512"
+                    height="512"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 329.269 329"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <path
+                        d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                        fill="#000000"
+                        opacity="1"
+                        data-original="#000000"
+                        class=""
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
               </a>
             </div>
             <div class="item">
-              <a
-                href="/assests/img/DSC00240-Edit-2.jpeg"
-                data-fancybox="gallery"
-                data-caption="СМПАР"
-              >
-                <img src="/assests/img/DSC00240-Edit-2.jpeg" alt="Image 8" />
+              <a href="/">
+                <img
+                  src="/assests/img/ChatGPT Image 26 Mar 2026 22_35_22 (1).png"
+                  alt="Image 1"
+                />
+                <div class="service-card__overlay"></div>
+                <div class="service-card__content">
+                  <h3 class="service-card__title">Lorem Ipsum</h3>
+                  <p class="service-card__desc">
+                    Профессиональный демонтаж конструкций любой сложности с
+                    соблюдением норм безопасности.
+                  </p>
+                </div>
+                <button class="service-card__btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="512"
+                    height="512"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 329.269 329"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <path
+                        d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                        fill="#000000"
+                        opacity="1"
+                        data-original="#000000"
+                        class=""
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
               </a>
             </div>
             <div class="item">
-              <a
-                href="/assests/img/DSC00251-Edit-2.jpeg"
-                data-fancybox="gallery"
-                data-caption="СМПАР"
-              >
-                <img src="/assests/img/DSC00251-Edit-2.jpeg" alt="Image 9" />
+              <a href="/">
+                <img
+                  src="/assests/img/ChatGPT Image 26 Mar 2026 22_36_35.png"
+                  alt="Image 2"
+                />
+                <div class="service-card__overlay"></div>
+                <div class="service-card__content">
+                  <h3 class="service-card__title">Lorem Ipsum</h3>
+                  <p class="service-card__desc">
+                    Профессиональный демонтаж конструкций любой сложности с
+                    соблюдением норм безопасности.
+                  </p>
+                </div>
+                <button class="service-card__btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="512"
+                    height="512"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 329.269 329"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <path
+                        d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                        fill="#000000"
+                        opacity="1"
+                        data-original="#000000"
+                        class=""
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
               </a>
             </div>
             <div class="item">
-              <a
-                href="/assests/img/DSC00253-3.jpeg"
-                data-fancybox="gallery"
-                data-caption="СМПАР"
-              >
-                <img src="/assests/img/DSC00253-3.jpeg" alt="Image 10" />
+              <a href="/">
+                <img
+                  src="/assests/img/ChatGPT Image 26 Mar 2026 22_38_14.png"
+                  alt="Image 3"
+                />
+                <div class="service-card__overlay"></div>
+                <div class="service-card__content">
+                  <h3 class="service-card__title">Lorem, ipsum.</h3>
+                  <p class="service-card__desc">
+                    Профессиональный демонтаж конструкций любой сложности с
+                    соблюдением норм безопасности.
+                  </p>
+                </div>
+                <button class="service-card__btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="512"
+                    height="512"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 329.269 329"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class=""
+                  >
+                    <g>
+                      <path
+                        d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                        fill="#000000"
+                        opacity="1"
+                        data-original="#000000"
+                        class=""
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
               </a>
             </div>
           </div>
@@ -1272,7 +1807,9 @@
                     подробно проконсультируем вас.
                   </p>
                 </div>
-                <a class="main__button" data-open-modal="contact-modal">Оставить заявку </a>
+                <a class="main__button" data-open-modal="contact-modal"
+                  >Оставить заявку
+                </a>
               </div>
             </div>
             <div class="f66">
@@ -1687,11 +2224,17 @@
             </ul>
           </div>
           <div class="footer_head_three">
-            <a href="tel:" class="tel">+7 (999) 717-14-96</a>
-            <a href="" class="email">smh@mail.ru</a>
+            <a href="tel:+37067513688" class="tel">+3 706 751 36 88</a>
+            <a href="mailto:scandicmodulhus@gmail.com" class="email"
+              >scandicmodulhus@gmail.com</a
+            >
           </div>
           <div class="footer_head_four">
-            <button data-btn="1" class="main__button" data-open-modal="contact-modal">
+            <button
+              data-btn="1"
+              class="main__button"
+              data-open-modal="contact-modal"
+            >
               Бесплатная консультация
             </button>
           </div>
@@ -1986,31 +2529,37 @@
       });
     </script>
     <script>
-      $(document).ready(function () {
-        $(".gallery-carousel").owlCarousel({
-          loop: true,
-          margin: 24,
-          nav: true,
-          dots: false,
-
-          navText: [
-            `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 492 492"><path d="M198.6 246.1L382.7 62c5.1-5.1 7.9-11.8 7.9-19s-2.8-14-7.9-19L366.6 7.9c-5.1-5.1-11.9-7.9-19.1-7.9s-13.9 2.8-19 7.9L109.3 227c-5.1 5.1-7.9 11.9-7.9 19.1s2.8 14 7.9 19.1l219 219c5.1 5.1 11.8 7.9 19 7.9s14-2.8 19.1-7.9l16.1-16.1c10.5-10.5 10.5-27.6 0-38.1L198.6 246.1z"/></svg>`,
-
-            `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 492 492"><path d="M382.7 226.8L163.7 7.9c-5-5.1-11.8-7.9-19-7.9s-14 2.8-19.1 7.9l-16.1 16.1c-10.5 10.5-10.5 27.6 0 38.1L293.4 245.9 109.3 430c-5.1 5.1-7.9 11.8-7.9 19.1s2.8 14 7.9 19.1l16.1 16.1c5.1 5.1 11.9 7.9 19.1 7.9s14-2.8 19-7.9l219-219c5.1-5.1 7.9-11.9 7.9-19.1s-2.8-14-7.9-19.1z"/></svg>`,
-          ],
-
-          responsive: {
-            0: { items: 1 },
-            600: { items: 2 },
-            1000: { items: 3 },
-          },
-        });
+      $(".gallery-carousel").owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 50,
+        // autoplay: true,
+        // autoplayTimeout: 3000,
+        // smartSpeed: 250,
+        nav: true,
+        dots: false,
+        navText: [
+          '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 492 492"><path d="M198.6 246.1L382.7 62c5.1-5.1 7.9-11.8 7.9-19s-2.8-14-7.9-19L366.6 7.9c-5.1-5.1-11.9-7.9-19.1-7.9s-13.9 2.8-19 7.9L109.3 227c-5.1 5.1-7.9 11.9-7.9 19.1s2.8 14 7.9 19.1l219 219c5.1 5.1 11.8 7.9 19 7.9s14-2.8 19.1-7.9l16.1-16.1c10.5-10.5 10.5-27.6 0-38.1L198.6 246.1z"/></svg>',
+          '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 492 492"><path d="M382.7 226.8L163.7 7.9c-5-5.1-11.8-7.9-19-7.9s-14 2.8-19.1 7.9l-16.1 16.1c-10.5 10.5-10.5 27.6 0 38.1L293.4 245.9 109.3 430c-5.1 5.1-7.9 11.8-7.9 19.1s2.8 14 7.9 19.1l16.1 16.1c5.1 5.1 11.9 7.9 19.1 7.9s14-2.8 19-7.9l219-219c5.1-5.1 7.9-11.9 7.9-19.1s-2.8-14-7.9-19.1z"/></svg>',
+        ],
+        responsive: {
+          0: { items: 1 },
+          768: { items: 1.5 },
+          1200: { items: 3 },
+        },
       });
-
-      document.addEventListener("DOMContentLoaded", () => {
-        Fancybox.bind(".owl-item:not(.cloned) [data-fancybox='gallery']", {
-          groupAll: true,
-        });
+      Fancybox.bind("[data-fancybox='gallery']", {
+        Thumbs: { autoStart: true }, // enables bottom thumbnails
+        Toolbar: {
+          display: [
+            { id: "counter", position: "center" },
+            "zoom",
+            "slideshow",
+            "fullscreen",
+            "close",
+          ],
+        },
       });
     </script>
     <script>
@@ -2032,6 +2581,25 @@
               .forEach((m) => m.classList.remove("active"));
           });
         });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const lang = document.querySelector(".header-lang");
+        const current = document.querySelector(".header-lang__current");
+
+        if (lang && current) {
+          current.addEventListener("click", (e) => {
+            e.preventDefault();
+            lang.classList.toggle("is-open");
+          });
+
+          document.addEventListener("click", (e) => {
+            if (!lang.contains(e.target)) {
+              lang.classList.remove("is-open");
+            }
+          });
+        }
+      });
     </script>
   </body>
 </html>

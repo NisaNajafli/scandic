@@ -67,3 +67,22 @@ document.addEventListener("DOMContentLoaded", () => {
 document.getElementById("year").textContent = new Date().getFullYear();
 
 
+
+new Swiper(".saunas-slider", {
+  slidesPerView: 3,
+  spaceBetween: 24,
+  loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false,
+  //   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: { slidesPerView: 1.1 },
+    600: { slidesPerView: 2 },
+    1100: { slidesPerView: 3 },
+  },
+});
