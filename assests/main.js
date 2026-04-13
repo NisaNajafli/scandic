@@ -124,3 +124,41 @@ document.querySelectorAll(".saunas-slider").forEach((sliderEl) => {
     });
   }
 })();
+
+  const servicesSwiper = new Swiper(".services-swiper", {
+    slidesPerView: 3.2,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".gallery-next",
+      prevEl: ".gallery-prev",
+    },
+    breakpoints: {
+      0: { slidesPerView: 1.2 },
+      768: { slidesPerView: 2 },
+      1200: { slidesPerView: 3 },
+    },
+    on: {
+      init: function () {
+        updateServicesPagination(this)
+      },
+      slideChange: function () {
+        updateServicesPagination(this)
+      },
+    },
+  })
+
+  function updateServicesPagination(swiper) {
+    const current = swiper.realIndex + 1
+    const slidesPerView = swiper.params.slidesPerView
+    const totalSteps = Math.ceil(swiper.slides.length - slidesPerView + 1)
+
+    document.querySelector(".gallery-current").textContent =
+      String(current).padStart(2, "0")
+
+    document.querySelector(".gallery-total").textContent =
+      String(totalSteps).padStart(2, "0")
+
+    const percent = (current / totalSteps) * 100
+    document.querySelector(".gallery-line-fill").style.width = percent + "%"
+  }
+
